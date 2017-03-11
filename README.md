@@ -1,1 +1,7 @@
-# Tim-19-Squadra
+# Tim Squdra
+***
+### Članovi tima:
+- Haris Palić
+- Tarik Pašalić
+- Ramiz Zaketović
+---
