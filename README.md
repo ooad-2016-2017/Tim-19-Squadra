@@ -1,4 +1,4 @@
-# Tim Squdra
+# Tim Squadra
 ***
 ### Članovi tima:
 - Haris Palić
