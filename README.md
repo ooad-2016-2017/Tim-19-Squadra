@@ -2,8 +2,8 @@
 ***
 ### Članovi tima:
 - Haris Palić :grinning:
-- Tarik Pašalić
-- Ramiz Zaketović
+- Tarik Pašalić :suspect:
+- Ramiz Zaketović :cop:
 
 ---
 
