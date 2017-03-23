@@ -53,6 +53,9 @@ Nakon prijave, *nastavnik/profesor* odabire opciju kreiranja izvještaja. Može 
 ## Akteri
 
 **Administrator** – Osoba koja registruje ostale aktere, resetuje lozinke te održava sistem
+
 **Nastavnik/profesor** – Osoba koja dodaje predmete, upisuje ocjene, prisustvo i napomene
+
 **Roditelj** – Osoba koja ima uvid u ocjene, prisustvo i napomene učenika te može primati obavještenja o aktivnostima vezanih za učenika (disciplinske mjere i slično)
+
 **Učenik** – Osoba koja ima uvid u svoje ocjene i prisustvo
