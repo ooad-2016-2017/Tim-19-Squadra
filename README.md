@@ -1,7 +1,7 @@
 # Tim Squadra
 ---
 # e-Dnevnik
-***
+
 ### Članovi tima:
 - Haris Palić :grinning:
 - Tarik Pašalić :suspect:
