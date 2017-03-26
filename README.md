@@ -47,6 +47,9 @@ Nakon prijave, *nastavnik/profesor* odabire opciju kreiranja izvještaja. Može 
 * Mogućnost pregleda ocjena i prisustva učenika (roditelj/učenik)
 * Mogućnost pregleda podataka po svim razredima (nastavnici/profesori)
 * Mogućnost kreiranja izvještaja
+* Kreiranje grafikona
+* Korištenje GPS-a za označavanje lokacije škole
+* Webcam za slikanje učenika za profil
 
 ---
 
