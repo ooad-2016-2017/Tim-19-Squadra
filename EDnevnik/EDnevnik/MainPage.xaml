@@ -9,7 +9,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-        <Button Content="RPR">
+        <Button Content="RPR" Click="Button_Click">
             
         </Button>
     </Grid>

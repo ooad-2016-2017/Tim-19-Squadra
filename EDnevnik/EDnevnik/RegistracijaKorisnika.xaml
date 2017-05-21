@@ -1,0 +1,62 @@
+﻿<Page
+    x:Class="EDnevnik.RegistracijaKorisnika"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EDnevnik"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Ime: " Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <TextBlock Text="Prezime: " Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <TextBlock Text="Datum rođenja: " Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <TextBlock Text="Mjesto rođenja: " Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <TextBlock Text="Email: " Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <TextBlock Text="Username: " Grid.Row="5" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <TextBlock Text="Password: " Grid.Row="6" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+
+        <TextBox x:Name="ime" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"></TextBox>
+        <TextBox x:Name="prezime" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"></TextBox>
+        <DatePicker x:Name="datumRodjenja" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Center"></DatePicker>
+        <TextBox x:Name="mjestoRodjenja" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2"></TextBox>
+        <TextBox x:Name="email" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2"></TextBox>
+        <TextBox x:Name="username" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2"></TextBox>
+        <TextBox x:Name="password" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2"></TextBox>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.Column="0">
+            <RadioButton x:Name="nastavnik" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,24" Width="16"></RadioButton>
+            <TextBlock Text="Nastavnik/Profesor" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.Column="1">
+            <RadioButton x:Name="roditelj" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,24" Width="16"></RadioButton>
+            <TextBlock Text="Roditelj" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.Column="2">
+            <RadioButton x:Name="ucenik" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,24" Width="16"></RadioButton>
+            <TextBlock Text="Ucenik" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+        </StackPanel>
+
+        <Button x:Name="registrujKorisnika" Grid.Row="8" Grid.Column="3" HorizontalAlignment="Center" Content="Registruj korisnika"></Button>
+
+
+    </Grid>
+</Page>

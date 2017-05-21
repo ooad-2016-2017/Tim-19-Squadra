@@ -41,9 +41,9 @@
                     <StackPanel Grid.Row="2" Grid.Column="2" Orientation="Horizontal">
                         <TextBlock Padding="5" Text="Broj učenika:" VerticalAlignment="Center"></TextBlock>
                         <StackPanel Orientation="Horizontal">
-                            <TextBox x:Name="txtNum" x:FieldModifier="private" Margin="5,5,0,5" Width="50" Text="0" TextChanged="txtNum_TextChanged" />
-                            <Button x:Name="cmdUp" x:FieldModifier="private" Margin="5,5,0,5" Content="˄" Width="20" Click="cmdUp_Click" />
-                            <Button x:Name="cmdDown" x:FieldModifier="private" Margin="0,5,0,5"  Content="˅" Width="20" Click="cmdDown_Click" />
+                            <TextBox x:Name="txtNum" x:FieldModifier="private" Margin="5,5,0,5" Width="50" Text="0" />
+                            <Button x:Name="cmdUp" x:FieldModifier="private" Margin="5,5,0,5" Content="˄" Width="20" />
+                            <Button x:Name="cmdDown" x:FieldModifier="private" Margin="0,5,0,5"  Content="˅" Width="20" />
                         </StackPanel>
                     </StackPanel>
                 </Grid>

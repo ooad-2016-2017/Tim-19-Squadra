@@ -26,5 +26,6 @@ namespace EDnevnik
         {
             this.InitializeComponent();
         }
+        
     }
 }

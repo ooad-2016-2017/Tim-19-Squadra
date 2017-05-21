@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="EDnevnik.PrijavaKorisnika"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EDnevnik"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Username: " VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                <TextBox x:Name="username" Padding="5" Width="150"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Password: " VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                <TextBox x:Name="password" Padding="5" Width="150"></TextBox>
+            </StackPanel>
+            <TextBlock Text="Zaboravili ste šifru" Foreground="Blue" HorizontalAlignment="Right"></TextBlock>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Registruj se!" Foreground="Blue" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="0"></TextBlock>
+                <Button x:Name="login" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Right" Content="LogIn"></Button>
+
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Page>
