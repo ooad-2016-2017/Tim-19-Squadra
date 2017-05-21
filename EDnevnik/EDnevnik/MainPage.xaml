@@ -9,5 +9,8 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+        <Button Content="RPR">
+            
+        </Button>
     </Grid>
 </Page>
