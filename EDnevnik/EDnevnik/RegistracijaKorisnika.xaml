@@ -9,15 +9,15 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"></ColumnDefinition>
@@ -40,22 +40,13 @@
         <TextBox x:Name="username" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2"></TextBox>
         <TextBox x:Name="password" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2"></TextBox>
 
-        <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.Column="0">
-            <RadioButton x:Name="nastavnik" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,24" Width="16"></RadioButton>
-            <TextBlock Text="Nastavnik/Profesor" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+        <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="3">
+            <RadioButton x:Name="nastavnik" VerticalAlignment="Center" HorizontalAlignment="Right" Content="Nastavnik"/>
+            <RadioButton x:Name="roditelj" VerticalAlignment="Center" HorizontalAlignment="Right" Content="Roditelj" ></RadioButton>
+            <RadioButton x:Name="ucenik" VerticalAlignment="Center" HorizontalAlignment="Right" Content="Ucenik"></RadioButton>
         </StackPanel>
 
-        <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.Column="1">
-            <RadioButton x:Name="roditelj" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,24" Width="16"></RadioButton>
-            <TextBlock Text="Roditelj" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
-        </StackPanel>
-
-        <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.Column="2">
-            <RadioButton x:Name="ucenik" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,24" Width="16"></RadioButton>
-            <TextBlock Text="Ucenik" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
-        </StackPanel>
-
-        <Button x:Name="registrujKorisnika" Grid.Row="8" Grid.Column="3" HorizontalAlignment="Center" Content="Registruj korisnika"></Button>
+        <Button x:Name="registrujKorisnika" Grid.Row="8" Grid.Column="0" HorizontalAlignment="Center" Content="Registruj korisnika" Grid.ColumnSpan="3" Padding="5" Margin="10"></Button>
 
 
     </Grid>

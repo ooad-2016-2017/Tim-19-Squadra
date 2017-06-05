@@ -25,12 +25,7 @@ namespace EDnevnik
         public MainPage()
         {
             this.InitializeComponent();
-        }
-
-        Ucenik ucenik = new Ucenik();
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(RegistracijaKorisnika));
+            Frame.Navigate(typeof(PrijavaKorisnika));
         }
     }
 }

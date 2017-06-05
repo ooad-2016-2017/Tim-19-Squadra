@@ -95,6 +95,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="EDnevnik.cs" />
     <Compile Include="IzvjestajPredmet.xaml.cs">
       <DependentUpon>IzvjestajPredmet.xaml</DependentUpon>
     </Compile>
@@ -104,9 +105,13 @@
     <Compile Include="IzvjestajUcenik.xaml.cs">
       <DependentUpon>IzvjestajUcenik.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Korisnik.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Napomena.cs" />
+    <Compile Include="Nastavnik.cs" />
+    <Compile Include="Predmet.cs" />
     <Compile Include="PregledNapomena.xaml.cs">
       <DependentUpon>PregledNapomena.xaml</DependentUpon>
     </Compile>
@@ -123,8 +128,10 @@
     <Compile Include="RegistracijaKorisnika.xaml.cs">
       <DependentUpon>RegistracijaKorisnika.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Ucenik.xaml.cs">
-      <DependentUpon>Ucenik.xaml</DependentUpon>
+    <Compile Include="Roditelj.cs" />
+    <Compile Include="Ucenik.cs" />
+    <Compile Include="UcenikProfil.xaml.cs">
+      <DependentUpon>UcenikProfil.xaml</DependentUpon>
     </Compile>
     <Compile Include="UnosPredmeta.xaml.cs">
       <DependentUpon>UnosPredmeta.xaml</DependentUpon>
@@ -187,7 +194,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Ucenik.xaml">
+    <Page Include="UcenikProfil.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

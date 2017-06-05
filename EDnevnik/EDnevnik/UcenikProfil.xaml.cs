@@ -20,9 +20,9 @@ namespace EDnevnik
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Ucenik : Page
+    public sealed partial class UcenikProfil : Page
     {
-        public Ucenik()
+        public UcenikProfil()
         {
             this.InitializeComponent();
         }
